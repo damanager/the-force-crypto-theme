@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Force Crypto Currency Template</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,800" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/theforce.css">
+    </head>
+    <body>
+        <div class="backy">
+                <div class="stars"></div>
+                <div class="twinkling"></div>
+                <div class=" "></div>
+        </div>
+       <header class="constrain transparent-header">
+                    <div class="logo"><img src="images/theforce-01.png"></div>
+                    <div class="socials">
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+         </header>
+        <main>
+               <section class="constrain">
+                   
+                 <div class="contenter">
+                   <div>
+                       <h1>Something <br>Big is <span>Coming</span></h1>
+                      <p>
+  <a href="" class="typewrite" data-period="2000" data-type='[ "Crypto coming soon Page Template", "The Ultimate Experience ", "Responsive & Easy To Use" ]'>
+    <span class="wrap"></span>
+  </a>
+</p>
+                   </div>
+                   <div class="form-holder">
+                        
+                         <form action="submit.php" method="post">
+                            <input id="email" type="email" name="email" placeholder="Enter Email" required>
+                             
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                   </div>
+                   
+                        <div class="time-counter form-row">
+                                <div class="days count col">
+                                    <div class="num">20</div>
+                                    <div class="label">Days</div>
+                                </div>
+                                <div class="hours count col">
+                                    <div class="num">2</div>
+                                    <div class="label">Hrs</div>
+                                </div>
+                                <div class="minutes count col">
+                                    <div class="num">1</div>
+                                    <div class="label">Min</div>
+                                </div>
+                                <div class="seconds count col">
+                                    <div class="num">30</div>
+                                    <div class="label">Sec</div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="the-force-animate">
+                                <div class="four"></div>
+                                <div class="three"></div>
+                                <div class="one"></div>
+                                <div class="two"></div>
+                                <div class="btc1"></div>
+                                <div class="btc2"></div>
+                                <div class="btc3"></div>
+                                <div class="btc4"></div>
+                                <div class="btc5"></div>
+                                <div class="btc6"></div>
+                                <div class="tabpatch"></div>
+                               
+                            </div>
+                  <div class="socials-mobile">
+                        <ul>
+                            <li><a href="https://web.facebook.com/Koinkoinn/"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://twitter.com/KOINKOIN13"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://www.instagram.com/koinnkoinn/"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                    
+               </section>
+        </main>
+        <footer></footer>
+        <script>
+            var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+        }
+
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+        document.body.appendChild(css);
+    };
+        </script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/script.js"></script>
+         <script src="js/jquery-1.11.1.min.js"></script>
+    </body>
+</html>

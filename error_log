@@ -1,0 +1,60 @@
+[19-Jan-2019 17:55:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function http_build_url() in /home/brookael/public_html/carpetpops.co.uk/landing/submit.php:6
+Stack trace:
+#0 /home/brookael/public_html/carpetpops.co.uk/landing/submit.php(30): redirect('http://carpetpo...')
+#1 {main}
+  thrown in /home/brookael/public_html/carpetpops.co.uk/landing/submit.php on line 6
+[19-Jan-2019 17:56:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function http_build_url() in /home/brookael/public_html/carpetpops.co.uk/landing/submit.php:4
+Stack trace:
+#0 /home/brookael/public_html/carpetpops.co.uk/landing/submit.php(28): redirect('http://carpetpo...')
+#1 {main}
+  thrown in /home/brookael/public_html/carpetpops.co.uk/landing/submit.php on line 4
+[19-Jan-2019 17:57:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function http_build_url() in /home/brookael/public_html/carpetpops.co.uk/landing/submit.php:4
+Stack trace:
+#0 /home/brookael/public_html/carpetpops.co.uk/landing/submit.php(30): redirect('http://carpetpo...')
+#1 {main}
+  thrown in /home/brookael/public_html/carpetpops.co.uk/landing/submit.php on line 4
+[19-Jan-2019 17:58:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function http_build_url() in /home/brookael/public_html/carpetpops.co.uk/landing/submit.php:4
+Stack trace:
+#0 /home/brookael/public_html/carpetpops.co.uk/landing/submit.php(28): redirect('http://carpetpo...')
+#1 {main}
+  thrown in /home/brookael/public_html/carpetpops.co.uk/landing/submit.php on line 4
+[19-Jan-2019 17:59:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function http_build_url() in /home/brookael/public_html/carpetpops.co.uk/landing/submit.php:4
+Stack trace:
+#0 /home/brookael/public_html/carpetpops.co.uk/landing/submit.php(29): redirect('http://carpetpo...')
+#1 {main}
+  thrown in /home/brookael/public_html/carpetpops.co.uk/landing/submit.php on line 4
+[19-Jan-2019 17:59:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function http_build_url() in /home/brookael/public_html/carpetpops.co.uk/landing/submit.php:4
+Stack trace:
+#0 /home/brookael/public_html/carpetpops.co.uk/landing/submit.php(30): redirect('http://carpetpo...')
+#1 {main}
+  thrown in /home/brookael/public_html/carpetpops.co.uk/landing/submit.php on line 4
+[19-Jan-2019 18:00:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function http_build_url() in /home/brookael/public_html/carpetpops.co.uk/landing/submit.php:5
+Stack trace:
+#0 /home/brookael/public_html/carpetpops.co.uk/landing/submit.php(29): redirect('http://carpetpo...')
+#1 {main}
+  thrown in /home/brookael/public_html/carpetpops.co.uk/landing/submit.php on line 5
+[19-Jan-2019 18:01:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function http_build_url() in /home/brookael/public_html/carpetpops.co.uk/landing/submit.php:4
+Stack trace:
+#0 /home/brookael/public_html/carpetpops.co.uk/landing/submit.php(28): redirect('http://carpetpo...')
+#1 {main}
+  thrown in /home/brookael/public_html/carpetpops.co.uk/landing/submit.php on line 4
+[19-Jan-2019 18:02:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function http_build_url() in /home/brookael/public_html/carpetpops.co.uk/landing/submit.php:5
+Stack trace:
+#0 /home/brookael/public_html/carpetpops.co.uk/landing/submit.php(29): redirect('http://carpetpo...')
+#1 {main}
+  thrown in /home/brookael/public_html/carpetpops.co.uk/landing/submit.php on line 5
+[19-Jan-2019 18:02:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function http_build_url() in /home/brookael/public_html/carpetpops.co.uk/landing/submit.php:4
+Stack trace:
+#0 /home/brookael/public_html/carpetpops.co.uk/landing/submit.php(29): redirect('http://carpetpo...')
+#1 {main}
+  thrown in /home/brookael/public_html/carpetpops.co.uk/landing/submit.php on line 4
+[19-Jan-2019 18:04:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function http_build_url() in /home/brookael/public_html/carpetpops.co.uk/landing/submit.php:6
+Stack trace:
+#0 /home/brookael/public_html/carpetpops.co.uk/landing/submit.php(30): redirect('http://carpetpo...')
+#1 {main}
+  thrown in /home/brookael/public_html/carpetpops.co.uk/landing/submit.php on line 6
+[19-Jan-2019 18:05:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function http_build_url() in /home/brookael/public_html/carpetpops.co.uk/landing/submit.php:6
+Stack trace:
+#0 /home/brookael/public_html/carpetpops.co.uk/landing/submit.php(30): redirect('http://carpetpo...')
+#1 {main}
+  thrown in /home/brookael/public_html/carpetpops.co.uk/landing/submit.php on line 6
